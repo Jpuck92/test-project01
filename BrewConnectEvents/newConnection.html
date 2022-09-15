@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/09e90ef797.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome Homebrewers!</title>
+</head>
+<body>
+    <header class="site-header">
+        <a href="index.html"><img src="imgs/beer-logo.png" class="header-logo">
+            <h3>BrewConnect</h3>
+            </a>
+
+        <nav class="user-nav">
+            <a href="newConnection.html">Start a new connection</a>
+            <a href="#">Login</a>
+            <a href="#">Sign up</a>
+        </nav><hr>
+
+        <nav class="general-nav">
+            <a href="index.html">Home</a>
+            <a href="connections.html">Connect</a>
+            <a href="#">Events</a>
+        </nav>
+
+    </header>
+<main class="main-container form-container">
+    <form action="index.html" method="post">
+        <label for="topic">Topic:
+             <input type="text" id="topic" name="topic"><br>
+        </label>
+       
+        <label for="title">Title:
+           <input type="text" id="title" name="title"><br> 
+        </label>
+        
+        <label for="host">Host:
+            <input type="text" id="host" name="host"><br>
+        </label>
+        
+        <label for="details">Details:
+          
+        </label>
+  <textarea cols="80" rows="5" id="details" name="details"></textarea>
+        
+        <label for="location">Where:
+            <input type="text" id="location" name="location"><br>
+        </label>
+        
+        <label for="date">When:
+            <input type="date" id="date" name="date"><br>
+        </label>
+        
+        <label for="start">Start:
+            <input type="time" id="start" name="start"><br>
+        </label>
+        
+        <label for="end">End:
+            <input type="time" id="end" name="end"><br>
+        </label>
+        
+        <label for="img">Image URL
+             <input type="text" id="img" name="img"><br>
+        </label>
+       
+        <button class="sub-btn" type="submit">Create Connection</button>
+        
+
+    </form>
+</main>
+<footer class="footer">
+    &copy;BrewConnect
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <span class="social">
+        <a href="#"><i class="fab fa-facebook" tabindex="0"></i></a>
+        <a href="#"><i class="fab fa-instagram" tabindex="0"></i></a>
+    </span>
+
+</footer>
+
+</body>
+</html>
